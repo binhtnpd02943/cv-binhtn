@@ -210,7 +210,7 @@ export default function Home() {
             className='relative aspect-square max-w-md mx-auto'
           >
             <Image
-              src='/DSC03539.png'
+              src='/DSC03539.webp'
               alt='Profile'
               width={500}
               height={500}
