@@ -136,6 +136,7 @@ export default function Home() {
                 onClick={() => {
                   window.print();
                 }}
+                aria-label='Download CV as PDF'
               >
                 Download CV
               </motion.button>
@@ -177,15 +178,27 @@ export default function Home() {
               </p>
             </div>
             <div className='flex gap-4 mt-6'>
-              <Link href='https://linkedin.com' className='social-link'>
+              <Link
+                href='https://linkedin.com'
+                className='social-link'
+                aria-label='LinkedIn Profile'
+              >
                 LinkedIn
               </Link>
-              <span>•</span>
-              <Link href='https://facebook.com' className='social-link'>
+              <span aria-hidden='true'>•</span>
+              <Link
+                href='https://facebook.com'
+                className='social-link'
+                aria-label='Facebook Profile'
+              >
                 Facebook
               </Link>
-              <span>•</span>
-              <Link href='https://twitter.com' className='social-link'>
+              <span aria-hidden='true'>•</span>
+              <Link
+                href='https://twitter.com'
+                className='social-link'
+                aria-label='Twitter Profile'
+              >
                 Twitter
               </Link>
             </div>
@@ -426,12 +439,14 @@ export default function Home() {
               {/* Arrow Navigation */}
               <button
                 onClick={prevImage}
+                aria-label='Previous image'
                 className='absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 transition-colors flex items-center justify-center text-white'
               >
                 ←
               </button>
               <button
                 onClick={nextImage}
+                aria-label='Next image'
                 className='absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 transition-colors flex items-center justify-center text-white'
               >
                 →
