@@ -19,7 +19,7 @@ const projects = [
     description:
       'The system takes care of and monitors the health of employees.',
     tech: ['JavaScript', 'Redis', 'NodeJS', 'MySQL', 'VueJS', 'AWS'],
-    images: ['/project3-1.webp', '/project3-2.webp', '/project3-3.webp'],
+    images: ['/project3-1.avif', '/project3-2.avif', '/project3-3.avif'],
     link: 'https://github.com/username/project1',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     date: '2023',
     description: 'Build a web app to manage and pay for electricity and gas',
     tech: ['Next.js', 'Nest.js', 'MongoDB', 'AWS'],
-    images: ['/project1-1.webp', '/project1-2.webp', '/project1-3.webp'],
+    images: ['/project1-1.avif', '/project1-2.avif', '/project1-3.avif'],
     link: 'https://github.com/username/project1',
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     description:
       'A web-based platform for managing assets and inventory, including item tracking, stock control, and reporting tools',
     tech: ['React', 'Nest.js', 'MySQL', 'MongoDB', 'Azure'],
-    images: ['/project2-1.webp', '/project2-2.webp', '/project2-3.webp'],
+    images: ['/project2-1.avif', '/project2-2.avif', '/project2-3.avif'],
     link: 'https://github.com/username/project2',
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     description:
       'Comprehensive human resource management system with modules for employee records, attendance tracking, leave management, and task assignment',
     tech: ['Java', 'ReactTS', 'MySQL', 'Template Antd'],
-    images: ['/project3-1.webp', '/project3-2.webp', '/project3-3.webp'],
+    images: ['/project3-1.avif', '/project3-2.avif', '/project3-3.avif'],
     link: 'https://github.com/username/project3',
   },
 ];
@@ -198,7 +198,7 @@ export default function Home() {
             className='relative aspect-square max-w-md mx-auto'
           >
             <Image
-              src='/DSC03539.webp'
+              src='/DSC03539.avif'
               alt='Profile'
               width={500}
               height={500}
