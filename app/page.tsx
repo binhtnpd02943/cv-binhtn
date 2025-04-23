@@ -1,21 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-import LightGallery from 'lightgallery/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-// Import lightGallery styles
-import 'lightgallery/css/lightgallery.css';
-import 'lightgallery/css/lg-zoom.css';
-import 'lightgallery/css/lg-thumbnail.css';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -215,6 +203,7 @@ export default function Home() {
               width={500}
               height={500}
               priority
+              unoptimized
               className='object-cover rounded-lg shadow-xl w-full h-full'
             />
           </motion.div>
@@ -415,6 +404,8 @@ export default function Home() {
                     currentImageIndex + 1
                   }`}
                   fill
+                  priority
+                  unoptimized
                   className='object-cover'
                 />
               </motion.div>
